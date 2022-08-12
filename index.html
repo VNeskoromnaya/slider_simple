@@ -18,25 +18,23 @@
             И она к тебе не раз еще вернется!
             <br />
         </p>
-        <div class="slider-wrapper">
-                <button class="button" onclick="changeMe();"> < </button>
-                <div class="slide active">
-                <img src="assets/img/smile1.jpeg" alt="smile" id="img" />
+        <div class="slider">
+            <div class="slider__wrapper">
+                <div class="slider__item active">
+                    <img src="assets/img/smile1.jpeg" alt="smile" id="img" />
                 </div>
-                <div class="slide">
+                <div class="slider__item">
                     <img src="assets/img/smile2.jpeg" alt="smile" />
                 </div>
-                <div class="slide">
+                <div class="slider__item">
                     <img src="assets/img/smile3.jpeg" alt="smile" />
                 </div>
-                <div class="slide">
-                    <img src="assets/img/smile3.jpeg" alt="smile" />
+                <div class="overlay">
+                    <div id="left_button" class="overlay_button" onclick="onLeftButton()"><</div>
+                    <div id="right_button" class="overlay_button" onclick="onRightButton()">></div>
                 </div>
-                <button class="button" onclick="changeMe()"> ></button>
+            </div>
         </div>
-        
-    
-
 
     <script src="assets/main.js"></script>
     

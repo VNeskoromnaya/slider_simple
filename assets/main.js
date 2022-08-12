@@ -1,5 +1,9 @@
+const currentImg = document.getElementById("img");
 
-function changeMe() {
-    let currentImg = document.getElementById('img');
-    currentImg.src = "assets/img/smile2.jpeg";
+function onLeftButton() {
+  currentImg.src = "assets/img/smile3.jpeg";
+}
+
+function onRightButton() {
+  currentImg.src = "assets/img/smile2.jpeg";
 }
